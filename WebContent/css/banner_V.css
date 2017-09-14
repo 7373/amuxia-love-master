@@ -1,0 +1,343 @@
+  @charset="UTF-8";
+
+ *{
+    padding:0;
+    margin:0;
+  }
+  html,body{
+    width:100%;
+    height:auto;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  /*    导航 begin----  */
+  /* 
+  固定靠右
+  .banner{
+    float: right;
+    margin-right: -70px;
+    margin-right: 5px;
+    width:100px;
+    height:710px;
+    border:1px solid red;
+    margin-top: 10px;
+  }
+  .banner:hover{
+    margin-right: 5px;
+  } */
+  
+    .banner{
+  	position: fixed;
+    /* float: right; */
+    right: -70px;
+    /*margin-right: 5px;*/
+    width:100px;
+    height:710px;
+    /*border:1px solid red;*/
+    margin-top: 10px;
+  }
+  .banner:hover{
+    right: 5px;
+  }
+  .leftBanner , .rightBanner{
+    width:35px;
+    height:300px;
+    /*border:1px solid red;*/
+    margin-left:33%;
+    background-color: red;
+
+  }
+  .leftBanner{
+    margin-top: 5px;
+  }
+  .rightBanner{
+    height:310px;
+    margin-top: -1px;
+  }
+  .centerLogo{
+    width:100px;
+    height:100px;
+  }
+  .centerLogo a:hover{
+   -webkit-animation-play-state:paused;
+   -moz-animation-play-state:paused;
+   -ms-animation-play-state:paused;
+   animation-play-state: paused;
+   
+ }
+ .centerLogo a{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-image: url(../img/treeLogo.png);
+  background-size: 100% 100%;
+  border:1px solid red;
+  border-radius: 50px 50px;
+  box-shadow: 0 0 5px 3px red;
+
+  -webkit-animation: tree_logo 1s infinite ;
+  -moz-animation: tree_logo 1s infinite ;
+  animation: tree_logo 1s infinite ;
+}
+
+@-webkit-keyframes tree_logo {
+  0%{
+    -webkit-box-shadow: 0 0 3px 1px red;
+  }
+  25%{
+    -webkit-box-shadow: 0 0 7px 3px red;
+  }
+  50%{
+   -webkit-box-shadow: 0 0 15px 7px red;
+ }
+ 75%{
+   -webkit-box-shadow: 0 0 7px 3px red;
+ }
+ 100%{
+  -webkit-box-shadow: 0 0 3px 1px red;
+}
+}
+
+@-moz-keyframes tree_logo {
+  0%{
+    -moz-box-shadow: 0 0 3px 1px red;
+  }
+  25%{
+    -moz-box-shadow: 0 0 7px 3px red;
+  }
+  50%{
+   -moz-box-shadow: 0 0 15px 7px red;
+ }
+ 75%{
+   -moz-box-shadow: 0 0 7px 3px red;
+ }
+ 100%{
+  -moz-box-shadow: 0 0 3px 1px red;
+}
+}
+
+@keyframes tree_logo {
+  0%{
+    box-shadow: 0 0 3px 1px red;
+  }
+  25%{
+    box-shadow: 0 0 7px 3px red;
+  }
+  50%{
+   box-shadow: 0 0 15px 5px red;
+ }
+ 75%{
+   box-shadow: 0 0 7px 3px red;
+ }
+ 100%{
+  box-shadow: 0 0 3px 1px red;
+}
+}
+@-ms-keyframes tree_logo {
+  0%{
+    -ms-box-shadow: 0 0 3px 1px red;
+  }
+  25%{
+    -ms-box-shadow: 0 0 7px 3px red;
+  }
+  50%{
+   -ms-box-shadow: 0 0 15px 5px red;
+ }
+ 75%{
+   -ms-box-shadow: 0 0 7px 3px red;
+ }
+ 100%{
+  -ms-box-shadow: 0 0 3px 1px red;
+}
+}
+
+.ban ul li{
+  width:30px;
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bolder;
+  list-style-type: none;
+  display: inline-block;
+}
+.ban ul li a{
+  color:pink;
+}
+.ban ul li a:hover{
+  color:lightgreen;
+  `transform:scale(1.2,1.2); 
+}
+/*      导航 end----  */
+
+
+
+  @charset="UTF-8";
+
+  *{
+    padding:0;
+    margin:0;
+  }
+  html,body{
+    width:100%;
+    height:auto;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  /*    导航 begin----  */
+  .banner{
+    float: right;
+    margin-right: -70px;
+    /*margin-right: 5px;*/
+    width:100px;
+    height:710px;
+    /*border:1px solid red;*/
+    margin-top: 10px;
+  }
+  .banner:hover{
+    margin-right: 5px;
+  }
+  .leftBanner , .rightBanner{
+    width:35px;
+    height:300px;
+    /*border:1px solid red;*/
+    margin-left:33%;
+    background-color: red;
+
+  }
+  .leftBanner{
+    margin-top: 5px;
+  }
+  .rightBanner{
+    height:310px;
+    margin-top: -1px;
+  }
+  .centerLogo{
+    width:100px;
+    height:100px;
+  }
+  .centerLogo a:hover{
+   -webkit-animation-play-state:paused;
+   -moz-animation-play-state:paused;
+   -ms-animation-play-state:paused;
+   animation-play-state: paused;
+   
+ }
+ .centerLogo a{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-image: url(../img/treeLogo.png);
+  background-size: 100% 100%;
+  border:1px solid red;
+  border-radius: 50px 50px;
+  box-shadow: 0 0 5px 3px red;
+
+  -webkit-animation: tree_logo 1s infinite ;
+  -moz-animation: tree_logo 1s infinite ;
+  animation: tree_logo 1s infinite ;
+}
+
+@-webkit-keyframes tree_logo {
+  0%{
+    -webkit-box-shadow: 0 0 3px 1px red;
+  }
+  25%{
+    -webkit-box-shadow: 0 0 7px 3px red;
+  }
+  50%{
+   -webkit-box-shadow: 0 0 15px 7px red;
+ }
+ 75%{
+   -webkit-box-shadow: 0 0 7px 3px red;
+ }
+ 100%{
+  -webkit-box-shadow: 0 0 3px 1px red;
+}
+}
+
+@-moz-keyframes tree_logo {
+  0%{
+    -moz-box-shadow: 0 0 3px 1px red;
+  }
+  25%{
+    -moz-box-shadow: 0 0 7px 3px red;
+  }
+  50%{
+   -moz-box-shadow: 0 0 15px 7px red;
+ }
+ 75%{
+   -moz-box-shadow: 0 0 7px 3px red;
+ }
+ 100%{
+  -moz-box-shadow: 0 0 3px 1px red;
+}
+}
+
+@keyframes tree_logo {
+  0%{
+    box-shadow: 0 0 3px 1px red;
+  }
+  25%{
+    box-shadow: 0 0 7px 3px red;
+  }
+  50%{
+   box-shadow: 0 0 15px 5px red;
+ }
+ 75%{
+   box-shadow: 0 0 7px 3px red;
+ }
+ 100%{
+  box-shadow: 0 0 3px 1px red;
+}
+}
+@-ms-keyframes tree_logo {
+  0%{
+    -ms-box-shadow: 0 0 3px 1px red;
+  }
+  25%{
+    -ms-box-shadow: 0 0 7px 3px red;
+  }
+  50%{
+   -ms-box-shadow: 0 0 15px 5px red;
+ }
+ 75%{
+   -ms-box-shadow: 0 0 7px 3px red;
+ }
+ 100%{
+  -ms-box-shadow: 0 0 3px 1px red;
+}
+}
+
+.ban ul li{
+  width:30px;
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bolder;
+  list-style-type: none;
+  display: inline-block;
+}
+.ban ul li a{
+  color:pink;
+}
+.ban ul li a:hover{
+  color:lightgreen;
+  `transform:scale(1.2,1.2); 
+}
+/*      导航 end----  */
+
+
+
+
